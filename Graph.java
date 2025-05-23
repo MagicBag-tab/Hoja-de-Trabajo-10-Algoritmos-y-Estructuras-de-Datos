@@ -89,6 +89,17 @@ class Graph {
     }
 
     /*
+     * Obtener grafo
+     */
+    public Map<Integer, List<Edge>> getAdjList() {
+        return adjList;
+    }
+
+    public boolean isDirected() {
+        return directed;
+    }
+
+    /*
      * Muestra el grafo completo junto a donde se dirige
      */
 
