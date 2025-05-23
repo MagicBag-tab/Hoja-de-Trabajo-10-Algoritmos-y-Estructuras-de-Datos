@@ -1,0 +1,88 @@
+# General files and directories
+*.log
+*.bak
+*.swp
+.DS_Store
+__pycache__/
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.env
+.venv/
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+bin/
+*.java~
+*.jks
+*.keystore
+
+# JUnit (Java testing)
+*.xml
+surefire-reports/
+failsafe-reports/
+test-output/
+
+# Python-specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+
+# IDE-specific
+.idea/
+*.iml
+*.ipr
+*.iws
+*.project
+*.settings
+*.classpath
+*.factorypath
+*.tmp
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+
+# Maven and Gradle (Java build tools)
+.gradle/
+build/
+target/
+dependency-reduced-pom.xml
+*.log
+!.gitignore
+
+# Virtual environments
+env/
+venv/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Local configuration files
+*.properties
+*.config
+EOF
